@@ -1,0 +1,2 @@
+-- seed users (passwords should be bcrypt-hashed in real seed)
+-- INSERT INTO users (name,email,password_hash,role) VALUES ('Admin','admin@tracker.local','$2a$10$placeholder', 'ADMIN');
