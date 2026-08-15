@@ -1,0 +1,16 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/tracker
+    username: tracker
+    password: tracker
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL95Dialect
+jwt:
+  secret: change-this-secret-for-dev
+  expiration-ms: 86400000

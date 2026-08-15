@@ -1,0 +1,2 @@
+-- sample leads
+-- INSERT INTO leads (name,phone,email,source,status,agent_id,notes) VALUES ('Ram Kumar','9999999999','ram@example.com','Walk-in','New',1,'Interested in Jeevan Anand');
